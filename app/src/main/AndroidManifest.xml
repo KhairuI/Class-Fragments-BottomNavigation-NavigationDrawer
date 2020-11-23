@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Class_Fragments">
-        <activity android:name=".activity.DrawerActivity"></activity>
+        <activity android:name=".activity.DrawerActivity"
+            android:theme="@style/NoActionBar"></activity>
         <activity android:name=".activity.TabActivity" />
         <activity android:name=".activity.FragmentActivity" />
         <activity android:name=".activity.MainActivity">
